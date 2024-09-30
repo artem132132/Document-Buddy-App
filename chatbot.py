@@ -8,7 +8,7 @@ from qdrant_client import QdrantClient
 from langchain import PromptTemplate
 from langchain.chains import RetrievalQA
 import streamlit as st
-
+ 
 class ChatbotManager:
     def __init__(
         self,
